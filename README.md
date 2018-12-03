@@ -8,7 +8,7 @@
 
 ### Introduction
 
-For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+This is my attempt at solving the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment for the second project work for Udacity DeepLearning Nanodegree.
 
 ![Trained Agent][image1]
 
@@ -18,11 +18,12 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 ### Distributed Training
 
-For this project, we will provide you with two separate versions of the Unity environment:
+For this project, I was provided with two separate versions of the Unity environment:
 - The first version contains a single agent.
 - The second version contains 20 identical agents, each with its own copy of the environment.  
 
 The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.  
+
 
 ### Solving the Environment
 
@@ -39,6 +40,9 @@ The barrier for solving the second version of the environment is slightly differ
 - This yields an **average score** for each episode (where the average is over all 20 agents).
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
+
+
+**I have choosen Option 2: to solve the second version that contains 20 identical agents.**
 
 ### Getting Started
 

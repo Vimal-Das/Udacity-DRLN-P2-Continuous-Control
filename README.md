@@ -42,7 +42,7 @@ The barrier for solving the second version of the environment is slightly differ
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
 
-**I have choosen Option 2: to solve the second version that contains 20 identical agents.**
+**I have choosen Option 1: to solve the first version that contains one single agent.**
 
 ### Getting Started
 
